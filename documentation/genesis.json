@@ -1,0 +1,27 @@
+{
+  "config" : {
+    "chainId" : 1346,
+    "muirglacierblock" : 0,
+    "ibft2" : {
+      "blockperiodseconds" : 15,
+      "epochlength" : 30000,
+      "requesttimeoutseconds" : 30
+    }
+  },
+  "nonce" : "0x0",
+  "timestamp" : "0x58ff40bc",
+  "gasLimit" : "0x989680",
+  "difficulty" : "0x1",
+  "mixHash" : "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
+  "coinbase" : "0x0000000000000000000000000000000000000000",
+  "miningbeneficiary" : "0x8b8489319F5A459A8AB5Cc2d5425a460711D6A5b",
+  "alloc" : {
+    "0x8b8489319F5A459A8AB5Cc2d5425a460711D6A5b" : {
+      "balance" : "1000000000000000000000000000"
+    },
+    "0x097f77E1abFE24872CE4a34549b58f2a9eE06979" : {
+      "balance" : "1000000000000000000"
+    }
+  },
+  "extraData" : "0xf87ea00000000000000000000000000000000000000000000000000000000000000000f85494367ef6df60e0f16740607a4e95f43b38ef811d9794175b6f58912a5baefd92b036bee32e2f8d3c4dfc94a65079e7b21f78eb8145bef63d0f7c608fd17451949c61bf1a96c36769fc646029c465040ab5a34936808400000000c0"
+}
