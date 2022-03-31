@@ -19,7 +19,7 @@ sudo apt install screen
 ## Setup Java:
 sudo apt install default-jre default-jdk
 
-## Download latest EnterChain client Hyperledger Besu (check for new versions if necessary)
+## Download latest OneNG client Hyperledger Besu (check for new versions if necessary)
 wget https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.1.1/besu-22.1.1.zip
 
 ## Install Unzip, if not already installed:
@@ -28,7 +28,7 @@ sudo apt install unzip
 ## Unzip the file, and rename it for ease:
 sudo unzip besu-22.1.1.zip; sudo mv besu-22.1.1 .ongc
 
-## Add environment so you can run EnterChain client from anywhere:
+## Add environment so you can run OneNG client from anywhere:
 sudo nano ~/.bashrc
 
 ## Add the following line to the end of the file. Make sure to put your username:
