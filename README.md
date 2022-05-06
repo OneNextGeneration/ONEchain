@@ -40,6 +40,7 @@ source ~/.bashrc
 ## Create a directory structure like this:
 mkdir -p ongc/node01/data
 cd ongc
+cd node01
 
 ## Create the genesis file, and paste the contents from the genesis file into it:
 # Genesis File: https://github.com/OneNGchain/blockchain-files/blob/master/documentation/genesis.json
@@ -53,14 +54,14 @@ sudo nano static-nodes.json
 
 ## Create a file called node-config.toml in node01 folder. Paste contents of config.toml into it:
 # Config File: https://github.com/OneNGchain/blockchain-files/blob/master/documentation/node-config.toml
-cd node01
+[ cd node01 ] (If not still in the directory)
 sudo nano node-config.toml
 
 ## Run screen, to keep node running if you close the terminal:
 screen , then hit Enter key.
 
 ## Run OneNG client from node01 folder:
-besu --config-file=config.toml
+besu --config-file=node-config.toml
 
 ## When the node runs, exit the current screen so it's safe if you close the terminal:
 Press Ctrl + A , then press C . 
